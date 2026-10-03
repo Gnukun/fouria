@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fouria | Official Website</title>
+  <meta name="description" content="Fouriaの公式Webサイト。最新の楽曲、ライブ情報、写真などを掲載。">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Open Graph / OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fouria | Official Website">
+  <meta property="og:description" content="Fouriaの公式Webサイト。最新の楽曲、ライブ情報、写真などを掲載。">
+  <meta property="og:image" content="images/music/tolstoy.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@fouria_4">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+  <!-- ======================================================================
+       HEADER / GLOBAL NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <!-- Band Brand Logo -->
+      <a href="index.html" class="site-logo" aria-label="Fouria Official Website">
+        <span class="site-logo__text">FOURIA</span>
+        <span class="site-logo__dot"></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">HOME</a></li>
+          <li><a href="music.html" class="nav-link">MUSIC</a></li>
+          <li><a href="live.html" class="nav-link">LIVE</a></li>
+          <li><a href="photo.html" class="nav-link">PHOTO</a></li>
+        </ul>
+
+        <!-- Quick SNS Links -->
+        <div class="header-sns">
+          <a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" title="Fouria on X" aria-label="Fouria Official X">
+            <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/fouria_4/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" title="Fouria on Instagram" aria-label="Fouria Official Instagram">
+            <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@fouria_4" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" title="Fouria on TikTok" aria-label="Fouria Official TikTok">
+            <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Fullscreen Navigation Overlay -->
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html" class="mobile-nav__link active"><span class="num">01</span>HOME</a></li>
+      <li><a href="music.html" class="mobile-nav__link"><span class="num">02</span>MUSIC</a></li>
+      <li><a href="live.html" class="mobile-nav__link"><span class="num">03</span>LIVE</a></li>
+      <li><a href="photo.html" class="mobile-nav__link"><span class="num">04</span>PHOTO</a></li>
+    </ul>
+
+    <div class="mobile-nav__footer">
+      <span class="mobile-nav__sns-label">OFFICIAL SNS</span>
+      <div class="mobile-nav__sns-links">
+        <a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="X">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/fouria_4/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@fouria_4" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         01. HERO SECTION
+         ====================================================================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="images/music/tolstoy.jpg" alt="Fouria Artwork" class="hero__bg-img" fetchpriority="high">
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__content">
+        <div class="hero__header-badge">
+          <span class="badge-dot"></span>
+          <span class="badge-text">1st Single「トルストイ」Out Now</span>
+        </div>
+
+        <h1 class="hero__title">FOURIA</h1>
+        <p class="hero__sub">Official Artist Website</p>
+
+        <div class="hero__footer-row">
+          <!-- Featured Music Teaser inside Hero -->
+          <div class="hero__release-teaser">
+            <a href="https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106" target="_blank" rel="noopener noreferrer" class="hero__release-thumb" aria-label="Listen to Tolstoy on Apple Music">
+              <img src="images/music/tolstoy.jpg" alt="トルストイ Artwork">
+            </a>
+            <div class="hero__release-meta">
+              <span class="hero__release-tag">NEW RELEASE</span>
+              <span class="hero__release-title">トルストイ</span>
+              <a href="https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106" target="_blank" rel="noopener noreferrer" class="hero__release-cta">
+                <span>Apple Musicで聴く</span>
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Scroll Down Indicator -->
+          <div class="hero__scroll-down" aria-hidden="true">
+            <span class="hero__scroll-text">SCROLL</span>
+            <div class="hero__scroll-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         02. LATEST / NEWS SECTION
+         ====================================================================== -->
+    <section class="section-pad" id="news">
+      <div class="container">
+        <div class="section-header section-header--flex reveal">
+          <div>
+            <span class="section-tag">NEWS</span>
+            <h2 class="section-title">LATEST INFO</h2>
+          </div>
+        </div>
+
+        <!-- News items rendered by js/main.js from js/data.js -->
+        <div class="news-list reveal" id="home-news-list">
+          <noscript>
+            <a href="music.html" class="news-item">
+              <div class="news-item__meta">
+                <span class="news-item__date">RELEASE</span>
+                <span class="news-item__badge">RELEASE</span>
+              </div>
+              <div class="news-item__title">1st Single「トルストイ」各音楽配信サービスにて配信中</div>
+              <div class="news-item__arrow">&rarr;</div>
+            </a>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         03. NEXT LIVE SECTION
+         ====================================================================== -->
+    <section class="section-pad" id="live" style="background-color: var(--color-bg-alt);">
+      <div class="container">
+        <div class="section-header section-header--flex reveal">
+          <div>
+            <span class="section-tag">SCHEDULE</span>
+            <h2 class="section-title">NEXT LIVE</h2>
+          </div>
+          <a href="live.html" class="view-more-link">
+            <span>VIEW ALL LIVES</span>
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Live info rendered by js/main.js from js/data.js (Shows COMING SOON if empty) -->
+        <div id="home-live-container">
+          <!-- Fallback placeholder -->
+          <div class="live-coming-card reveal">
+            <span class="live-coming__label">NEXT LIVE</span>
+            <h3 class="live-coming__title">COMING SOON</h3>
+            <p class="live-coming__desc">
+              次回ライブ情報は決定次第、当サイトおよび公式SNS（X・Instagram）にて発表いたします。
+            </p>
+            <div class="live-coming__actions">
+              <a href="live.html" class="btn btn-outline">LIVE INFO</a>
+              <a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                FOLLOW ON X
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         04. FEATURED / LATEST MUSIC SECTION
+         ====================================================================== -->
+    <section class="section-pad featured-music" id="music">
+      <div class="container">
+        <div class="section-header section-header--flex reveal">
+          <div>
+            <span class="section-tag">RELEASE</span>
+            <h2 class="section-title">LATEST MUSIC</h2>
+          </div>
+          <a href="music.html" class="view-more-link">
+            <span>DISCOGRAPHY</span>
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="music-spotlight">
+          <!-- Large Artwork with Apple Music Link -->
+          <div class="music-spotlight__artwork-wrap reveal">
+            <a href="https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106" target="_blank" rel="noopener noreferrer" class="music-spotlight__artwork-link" aria-label="Single「トルストイ」をApple Musicで聴く">
+              <img src="images/music/tolstoy.jpg" alt="Fouria - トルストイ Jacket Artwork" class="music-spotlight__artwork-img">
+              <div class="music-spotlight__play-badge">
+                <div class="play-circle">
+                  <svg viewBox="0 0 24 24"><polygon fill="currentColor" points="5 3 19 12 5 21 5 3"></polygon></svg>
+                </div>
+                <span class="play-text">LISTEN ON APPLE MUSIC</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Track Info & Action -->
+          <div class="music-spotlight__info reveal reveal-delay-2">
+            <span class="music-spotlight__label">1ST SINGLE / NOW STREAMING</span>
+            <h3 class="music-spotlight__title">トルストイ</h3>
+            <p class="music-spotlight__type">Single Track</p>
+            <div class="music-spotlight__actions">
+              <a href="https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106" target="_blank" rel="noopener noreferrer" class="btn-applemusic">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.61-.75 1.04-1.8 1.01-2.87-.96.04-2.13.64-2.79 1.43-.57.66-1.06 1.73-.93 2.76 1.08.08 2.1-1.01 2.71-1.32z"/></svg>
+                <span>Apple Musicで再生する</span>
+              </a>
+              <a href="music.html" class="btn btn-outline">
+                <span>VIEW MUSIC</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         05. MEMBER SECTION
+         ====================================================================== -->
+    <section class="section-pad" id="member">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">MEMBERS</span>
+          <h2 class="section-title">MEMBER</h2>
+          <p class="section-sub">4-Piece Band from Japan</p>
+        </div>
+
+        <!-- 4 Members Grid (Rendered by js/main.js from js/data.js) -->
+        <div class="members-grid" id="home-member-grid">
+          <!-- Fallback statically for SEO / No-JS -->
+          <!-- 1. こばゆう (Vo.Key.Gt.) -->
+          <div class="member-card">
+            <div class="member-card__photo-wrap">
+              <img src="images/members/kobayu.svg" alt="Fouria こばゆう (Vo.Key.Gt.)" class="member-card__img" loading="lazy">
+            </div>
+            <div class="member-card__body">
+              <span class="member-card__part">Vo.Key.Gt.</span>
+              <h3 class="member-card__name">こばゆう</h3>
+              <span class="member-card__name-en">KOBA YU</span>
+              <div class="member-card__sns">
+                <a href="https://x.com/youhuax11?s=11" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="こばゆう X"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="https://www.instagram.com/k_o8yv/" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="こばゆう Instagram"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a href="https://www.tiktok.com/@kobahapi07" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="こばゆう TikTok"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. 佐藤うりと (Gt.) -->
+          <div class="member-card">
+            <div class="member-card__photo-wrap">
+              <img src="images/members/sato_urito.svg" alt="Fouria 佐藤うりと (Gt.)" class="member-card__img" loading="lazy">
+            </div>
+            <div class="member-card__body">
+              <span class="member-card__part">Gt.</span>
+              <h3 class="member-card__name">佐藤うりと</h3>
+              <span class="member-card__name-en">URITO SATO</span>
+              <div class="member-card__sns">
+                <a href="https://x.com/uritogt?s=11" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="佐藤うりと X"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="https://www.instagram.com/uritogt/" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="佐藤うりと Instagram"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a href="https://www.tiktok.com/@uritogt" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="佐藤うりと TikTok"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. nagaoka (Ba.) -->
+          <div class="member-card">
+            <div class="member-card__photo-wrap">
+              <img src="images/members/nagaoka.svg" alt="Fouria nagaoka (Ba.)" class="member-card__img" loading="lazy">
+            </div>
+            <div class="member-card__body">
+              <span class="member-card__part">Ba.</span>
+              <h3 class="member-card__name">nagaoka</h3>
+              <span class="member-card__name-en">NAGAOKA</span>
+              <div class="member-card__sns">
+                <a href="https://x.com/n_boc4?s=11" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="nagaoka X"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="https://www.instagram.com/_ngokbb/" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="nagaoka Instagram"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a href="https://www.tiktok.com/@ngok77b" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="nagaoka TikTok"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. さち (Dr.) -->
+          <div class="member-card">
+            <div class="member-card__photo-wrap">
+              <img src="images/members/sachi.svg" alt="Fouria さち (Dr.)" class="member-card__img" loading="lazy">
+            </div>
+            <div class="member-card__body">
+              <span class="member-card__part">Dr.</span>
+              <h3 class="member-card__name">さち</h3>
+              <span class="member-card__name-en">SACHI</span>
+              <div class="member-card__sns">
+                <a href="https://x.com/sa_cch_i_7?s=11" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="さち X"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="https://www.instagram.com/s_achi_y07/" target="_blank" rel="noopener noreferrer" class="member-sns-link" aria-label="さち Instagram"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         06. PHOTO TEASER SECTION
+         ====================================================================== -->
+    <section class="section-pad photo-teaser" id="photo-teaser">
+      <div class="container">
+        <div class="photo-teaser__grid">
+          <div class="photo-teaser__main-frame reveal">
+            <img src="images/logo/fouria_icon.jpg" alt="Fouria Official Visual" loading="lazy">
+          </div>
+          <div class="photo-teaser__info reveal reveal-delay-2">
+            <span class="photo-teaser__tag">GALLERY</span>
+            <h2 class="photo-teaser__title">PHOTO ARCHIVE</h2>
+            <p class="photo-teaser__desc">
+              Fouriaのアートワーク、ビジュアルフォトを掲載した公式フォトギャラリー。
+            </p>
+            <div>
+              <a href="photo.html" class="btn btn-primary">
+                <span>VIEW ALL PHOTOS</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         07. CONNECT / SNS SECTION
+         ====================================================================== -->
+    <section class="section-pad sns-section" id="sns">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">CONNECT</span>
+          <h2 class="section-title">OFFICIAL SNS</h2>
+          <p class="section-sub">Fouriaの最新情報・映像・日常は公式SNSにて発信中</p>
+        </div>
+
+        <div class="sns-cards-grid">
+          <!-- X -->
+          <a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="sns-card reveal reveal-delay-1" aria-label="Fouria Official X">
+            <div class="sns-card__icon-box">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </div>
+            <h3 class="sns-card__service">X (Twitter)</h3>
+            <span class="sns-card__handle">@fouria_4</span>
+            <span class="sns-card__link">
+              <span>FOLLOW US</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/fouria_4/" target="_blank" rel="noopener noreferrer" class="sns-card reveal reveal-delay-2" aria-label="Fouria Official Instagram">
+            <div class="sns-card__icon-box">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <h3 class="sns-card__service">Instagram</h3>
+            <span class="sns-card__handle">@fouria_4</span>
+            <span class="sns-card__link">
+              <span>FOLLOW US</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+
+          <!-- TikTok -->
+          <a href="https://www.tiktok.com/@fouria_4" target="_blank" rel="noopener noreferrer" class="sns-card reveal reveal-delay-3" aria-label="Fouria Official TikTok">
+            <div class="sns-card__icon-box">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </div>
+            <h3 class="sns-card__service">TikTok</h3>
+            <span class="sns-card__handle">@fouria_4</span>
+            <span class="sns-card__link">
+              <span>FOLLOW US</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">FOURIA</span>
+          <p class="footer-desc">
+            4-Piece Rock Band「Fouria」Official Website.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-col">
+            <span class="footer-nav-col__title">NAVIGATION</span>
+            <ul class="footer-links">
+              <li><a href="index.html" class="footer-link">HOME</a></li>
+              <li><a href="music.html" class="footer-link">MUSIC</a></li>
+              <li><a href="live.html" class="footer-link">LIVE</a></li>
+              <li><a href="photo.html" class="footer-link">PHOTO</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <span class="footer-nav-col__title">OFFICIAL SNS</span>
+            <ul class="footer-links">
+              <li><a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="footer-link">X (Twitter)</a></li>
+              <li><a href="https://www.instagram.com/fouria_4/" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@fouria_4" target="_blank" rel="noopener noreferrer" class="footer-link">TikTok</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <span class="footer-nav-col__title">STREAMING</span>
+            <ul class="footer-links">
+              <li><a href="https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106" target="_blank" rel="noopener noreferrer" class="footer-link">Apple Music</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="current-year">2026</span> Fouria. All Rights Reserved.</p>
+        <div class="footer-sns-row">
+          <a href="https://x.com/fouria_4?s=11" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="X">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/fouria_4/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@fouria_4" target="_blank" rel="noopener noreferrer" class="sns-icon-btn" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

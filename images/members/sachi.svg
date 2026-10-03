@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2718" />
+      <stop offset="50%" stop-color="#1c1910" />
+      <stop offset="100%" stop-color="#0c0b06" />
+    </linearGradient>
+    <radialGradient id="glow4" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffb142" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#ffb142" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bgGrad4)" />
+  <rect width="600" height="800" fill="url(#glow4)" />
+  
+  <!-- Framing Border -->
+  <rect x="30" y="30" width="540" height="740" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <rect x="36" y="36" width="528" height="728" fill="none" stroke="rgba(255,177,66,0.2)" stroke-width="1" />
+
+  <!-- Center Graphic: Drum Motif -->
+  <g transform="translate(300, 310)">
+    <circle cx="0" cy="0" r="110" fill="rgba(255, 177, 66, 0.08)" stroke="#ffb142" stroke-width="2" stroke-dasharray="6 6" />
+    <circle cx="0" cy="0" r="85" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+    
+    <!-- Stylized Snare Drum & Crossed Sticks -->
+    <ellipse cx="0" cy="5" rx="45" ry="20" fill="#201c12" stroke="#ffffff" stroke-width="3.5" />
+    <ellipse cx="0" cy="-5" rx="45" ry="20" fill="none" stroke="#ffb142" stroke-width="2.5" />
+    <line x1="-38" y1="-38" x2="38" y2="38" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    <line x1="38" y1="-38" x2="-38" y2="38" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography -->
+  <text x="300" y="520" text-anchor="middle" fill="#ffffff" font-family="'Syne', 'Helvetica Neue', sans-serif" font-size="34" font-weight="800" letter-spacing="4">SACHI</text>
+  <text x="300" y="565" text-anchor="middle" fill="#ffb142" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" letter-spacing="4">Dr.</text>
+  
+  <rect x="200" y="610" width="200" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+  <text x="300" y="631" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" letter-spacing="2">PHOTO COMING SOON</text>
+
+  <!-- Corner Brand -->
+  <text x="50" y="65" fill="rgba(255,255,255,0.4)" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" letter-spacing="2">FOURIA // MEMBER 04</text>
+</svg>

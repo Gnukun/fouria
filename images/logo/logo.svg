@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+  </defs>
+  <!-- Stylized Fouria Text Logo with sharp geometric rock aesthetic -->
+  <text x="10" y="58" font-family="'Syne', 'Impact', 'Montserrat', sans-serif" font-size="52" font-weight="900" letter-spacing="6" fill="url(#logoGrad)">FOURIA</text>
+  <rect x="12" y="66" width="36" height="3" fill="#ff3344" />
+</svg>
