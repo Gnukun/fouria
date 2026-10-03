@@ -96,6 +96,7 @@ const FOURIA_DATA = {
       status: "NOW STREAMING",
       jacket: "images/music/tolstoy.jpg",
       appleMusic: "https://music.apple.com/jp/album/%E3%83%88%E3%83%AB%E3%82%B9%E3%83%88%E3%82%A4-single/1781209106",
+      spotify: "https://open.spotify.com/track/15N1RzuWmuNK1fmCiFTPmH?si=EIiYYJM-R8mi6MQUTX7Etw&utm_source=line",
       isLatest: true
     }
     /* 
@@ -144,7 +145,6 @@ const FOURIA_DATA = {
       date: "RELEASE",
       category: "RELEASE",
       title: "1st Single「トルストイ」各音楽配信サービスにて配信中",
-      url: "music.html",
       isExternal: false
     }
     /*

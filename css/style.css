@@ -536,7 +536,7 @@ input:focus-visible {
   background-color: #000000;
 }
 
-/* Hero Background Visual with Tolstoy Artwork */
+/* Hero Background Visual */
 .hero__bg {
   position: absolute;
   top: 0;
@@ -555,6 +555,14 @@ input:focus-visible {
   transform: scale(1.05);
   filter: brightness(0.65) contrast(1.15);
   animation: heroZoom 20s ease-out forwards;
+}
+
+@media (max-width: 600px) {
+  .hero__bg-img {
+    object-fit: contain;
+    object-position: center;
+    background-color: #000000;
+  }
 }
 
 @keyframes heroZoom {
@@ -813,6 +821,19 @@ input:focus-visible {
 .news-item:hover .news-item__arrow {
   color: #ffffff;
   transform: translateX(6px);
+}
+
+.news-item--static {
+  cursor: default;
+}
+
+.news-item--static:hover {
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.news-item--static:hover .news-item__title {
+  color: var(--color-text-main);
 }
 
 /* --------------------------------------------------------------------------
@@ -1097,6 +1118,17 @@ input:focus-visible {
   align-items: center;
 }
 
+.streaming-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.streaming-actions--vertical {
+  flex-direction: column;
+  align-items: stretch;
+}
+
 .btn-applemusic {
   display: inline-flex;
   align-items: center;
@@ -1110,6 +1142,33 @@ input:focus-visible {
   font-size: 0.9375rem;
   transition: all var(--transition-base);
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+}
+
+.btn-spotify {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  background: #ffffff;
+  color: #000000;
+  padding: 1rem 1.8rem;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition: all var(--transition-base);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+}
+
+.btn-spotify:hover {
+  background: #e6e6e6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.25);
+}
+
+.btn-spotify svg {
+  width: 20px;
+  height: 20px;
 }
 
 .btn-applemusic:hover {
