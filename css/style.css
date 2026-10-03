@@ -560,7 +560,8 @@ input:focus-visible {
 @media (max-width: 600px) {
   .hero__bg-img {
     object-fit: contain;
-    object-position: center;
+    object-position: center top;
+    transform-origin: center top;
     background-color: #000000;
   }
 }
